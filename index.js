@@ -6,4 +6,8 @@ let b=a.filter((item,index)=>{
 })
 
 console.log(b);
+let tmp=new Set(a);
+console.log(tmp);
+let c=Array.from(tmp);
+console.log(c);
 

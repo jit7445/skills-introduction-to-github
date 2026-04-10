@@ -15,3 +15,8 @@ let arr2=arr.reduce((pre,cur)=>{
     return pre+cur;
 },0)
 console.log(arr2);
+
+let arr3=arr.some((item,index)=>{
+    return item>5;
+})
+console.log(arr3);

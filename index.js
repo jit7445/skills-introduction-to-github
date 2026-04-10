@@ -2,4 +2,16 @@ let a=[1,2,3,4,4,5,6,7,8,9,10];
 let b=a.filter((item,index)=>{
     return a.indexOf(item)===index;
 })
+
 console.log(b);
+
+let arr=[1,2,3,4,5,6,7,8,9,10];
+let arr1=arr.map((item,index)=>{
+    return item*2;
+})
+console.log(arr1);
+
+let arr2=arr.reduce((pre,cur)=>{
+    return pre+cur;
+},0)
+console.log(arr2);
